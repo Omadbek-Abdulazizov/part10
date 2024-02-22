@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'qituvchilar boshqaruvi</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+    
+    
+    <div class="headerr">
+        <h1 class="header_h1">O'qituvchilar boshqaruvi</h1>
+        <div class="containerr">
+        <form class="form_input">
+            <div class="input_name">
+                <label for="name">Ismi</label>
+                <input id="title" type="text">
+            </div>
+            
+            <div class="input_author">
+                <label for="author">Familiyasi</label>
+                <input id="author" type="text">
+            </div>
+            <div class="input_year">
+                <label for="year">Yoshi</label>
+                <input id="year" type="number">
+            </div>
+            <div class="input_year">
+                <label for="text">Yo'nalishi</label>
+                <input id="yonalish" type="text">
+            </div>
+            <input type="submit" value="Qo'shish" class="input_btn">
+        </form>
+    </div>
+    <hr>
+        <table>
+            <tr>
+                <th>Ismi</th>
+                <th>Familiyasi</th>
+                <th>Yoshi</th>
+                <th>Yo'nalishi</th>
+            </tr>
+            <tbody id="book_list"></tbody>
+        </table>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
